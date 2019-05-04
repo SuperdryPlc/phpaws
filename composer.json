@@ -1,0 +1,24 @@
+{
+  "name": "superdry/phpaws",
+  "description": "PHP Library to access the AWS SDK",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "superdry\\phpaws\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  },
+  "minimum-stability": "dev",
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
